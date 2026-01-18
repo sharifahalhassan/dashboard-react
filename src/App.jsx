@@ -13,7 +13,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import SidebarLayout from "./components/SidebarLayout";
 
 // Sidebar: مكوّن السايدبار
-import Sidebar from "./components/SideBar";
+import Sidebar from "./components/Sidebar";
 
 // TopNav: مكوّن الشريط العلوي
 import TopNav from "./components/TopNav";
