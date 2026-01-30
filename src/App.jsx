@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import SidebarLayout from "./components/SidebarLayout";
-import Sidebar from "./components/SideBar";
+import SideBar from "./components/SideBar";
 import TopNav from "./components/TopNav";
 import Orders from "./pages/Orders";
 import Overview from "./pages/Overview";
@@ -19,7 +19,7 @@ export default function App() {
     <NavigationLoader/>
     <SidebarLayout
       // هنا نحدد مكوّن السايدبار نفسه
-      sidebar={<Sidebar />}
+      sidebar={<SideBar />}
 
       // هنا نحدد التوب بار
       // نمرر له حالة السايدبار ودالة التبديل

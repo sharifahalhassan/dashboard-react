@@ -35,7 +35,7 @@ const secondaryItems = [
   { to: "/changelog", label: "Changelog", icon: ClockIcon },
 ];
 
-export default function Sidebar({ onNavigate }) {
+export default function SideBar({ onNavigate }) {
   const user = JSON.parse(localStorage.getItem("user"))
 
   // onNavigate: callback اختياري
